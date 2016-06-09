@@ -1,11 +1,18 @@
 {
   "port": 8081,
-  "rest": {
-    "url": "http://localhost:8080"
-  },
   "module": {
       "user": "profilesModule",
-      "password": "PrOfIlEmOdUlE"
+      "password": "aegee-profile-module"
+  },
+  "rest": {
+        "core": {  "url": "http://127.0.0.1:8080" },
+        "token": {  "url": "http://127.0.0.1:8090" }
+    },
+  "rest_core": {
+    "url": "http://127.0.0.1:8080"
+  },
+  "rest_token": {
+    "url": "http://127.0.0.1:8090"
   },
   "ldap": {
     "url": "ldap://localhost:389",

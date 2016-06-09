@@ -1,10 +1,10 @@
 {
   "name": "oms-profiles-module",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Consumer of REST API of AEGEE's infrastructure",
   "license": "Apache-2.0",
   "repository": "AEGEE/oms-profiles-module",
-  "main": "omsmodule.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "~1.0.0",
     "cookie-parser": "~1.0.0",
